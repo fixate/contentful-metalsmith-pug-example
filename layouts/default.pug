@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Title
+    meta(name='description', content=description)
+
+  body
+    header
+      p
+        a(href='/') Home
+
+    block content
+
+    footer
+      p
+        | Generated with
+        = generator
+        = ' - '
+        a(href=url)= url
