@@ -1,5 +1,8 @@
 extends default.pug
 
+block global-vars
+  - var SEO_TITLE = data.fields.title
+
 block content
   h1!= data.fields.title
 
