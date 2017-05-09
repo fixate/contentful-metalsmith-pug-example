@@ -1,10 +1,9 @@
-const Metalsmith   = require('metalsmith');
-const markdown     = require('metalsmith-markdown');
-const dataMarkdown = require('metalsmith-data-markdown');
-const layouts      = require('metalsmith-layouts');
-const permalinks   = require('metalsmith-permalinks');
-const pug          = require('metalsmith-pug');
-const contentful   = require('contentful-metalsmith');
+const Metalsmith    = require('metalsmith');
+const markdown      = require('metalsmith-markdown');
+const dataMarkdown  = require('metalsmith-data-markdown');
+const layouts       = require('metalsmith-layouts');
+const permalinks    = require('metalsmith-permalinks');
+const contentful    = require('contentful-metalsmith');
 const jstransformer = require('metalsmith-jstransformer');
 
 Metalsmith(__dirname)
